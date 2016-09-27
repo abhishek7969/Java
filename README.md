@@ -1,7 +1,7 @@
 $ git pull origin master  >> pull  from git.
 
 
-$ git add IterrateAMap.java >> add a local file.
+$ git add IterrateAMap.java >> add a local file.|--|
 $ git add . >> add a local file.
 
 $ git commit -m "Add new files"  >> commit new files.
