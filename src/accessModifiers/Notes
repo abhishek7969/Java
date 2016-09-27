@@ -1,3 +1,13 @@
 Private access less level is not allowed for Class, Interface and Enum.
 package(Defalut) level allowed for entity interface and enum, also for members of class.Also should be use within the boundaries.
 Member with public access modifiers can cross the boundaries of the package, but one condition is class should be public.
+Private access less level is not allowed for Class, Interface and Enum.
+package(Defalut) level allowed for entity interface and enum, also for members of class.Also should be use within the boundaries.
+Member with public access modifiers can cross the boundaries of the package, but one condition is class should be public.
+
+Access level defined the boundaries to use the members.
+
+Protected members out side the package are available only to the subclasses.
+protected inherited member will act as a private member,so protected inherited member should be used only within the boundaries of the sub class
+
+private-->package-->protected -->public
