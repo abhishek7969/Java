@@ -1,6 +1,6 @@
 package opps.polymorphism;
 
-public class Overriding {
+public class Overriding  {
 	
 	public static void main(String[] args) {
 		
@@ -8,17 +8,22 @@ public class Overriding {
 		 * 
 		 */
 		Person p = new Employee();  
-		p.test(); //error as test in person is not present
+		//p.test(); //error as test in person is not present
 		System.out.println("over riden variable="+p.i);
 	}
-	public void test(){
-		System.out.println("This is person test");
-	}
+	
+}
+
+class Person{
+	int i =10;
+//	 void test(){
+//		System.out.println("This is person test");
+//	}
 }
 
 class Employee extends Person{
 	int i =20;
-	public void test(){
+	protected void test(){
 		System.out.println("This is emp test");
 	}
 }
