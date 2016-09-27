@@ -11,3 +11,5 @@ Protected members out side the package are available only to the subclasses.
 protected inherited member will act as a private member,so protected inherited member should be used only within the boundaries of the sub class
 
 private-->package-->protected -->public
+
+there is nothing called parent / child package. if package  structure is changing it is a different package only.
