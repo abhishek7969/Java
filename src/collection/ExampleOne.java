@@ -1,6 +1,7 @@
-package com.abc.exception;
+package collection;
 import java.util.*;
-class TestCollection13{
+
+class ExampleOne{
  public static void main(String args[]){
  
 HashMap<Integer,String>  hm = new HashMap<Integer,String>();
