@@ -1,0 +1,3 @@
+Private access less level is not allowed for Class, Interface and Enum.
+package(Defalut) level allowed for entity interface and enum, also for members of class.Also should be use within the boundaries.
+Member with public access modifiers can cross the boundaries of the package, but one condition is class should be public.
