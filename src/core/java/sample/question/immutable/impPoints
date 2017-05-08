@@ -1,0 +1,13 @@
+>>The class is final so we cannot create the subclass and override its methods..
+>>Once an object is created and initialized, it cannot be modified.
+>>How about methods such as trim that remove leading and trailing whitespace characters — 
+do such methods modify the state of the String object? No. If there are any leading or trailing whitespace characters, 
+thse trim method removes them and returns a new String object instead of modifying that String object.
+
+>>Rules to make a immutable class 
+Make class as a Final
+Make all the immutable instance variable as a Final
+Extra care needs for the mutable instance variables such as Data and Collection list as they can be accessed outside and changed.
+	Make sure that the methods don’t change the contents inside those mutable objects.
+	Don’t share the references outside the classes 
+	If you must return a reference, return the deep copy of the object
