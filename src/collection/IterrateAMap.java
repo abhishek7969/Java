@@ -11,7 +11,7 @@ class IterrateAMap {
 		hm.put(102, "rai");
 		hm.put(102, "manish");
 
-		for (Map.Entry entry : hm.entrySet()) {
+		for (Map.Entry<Integer, String> entry : hm.entrySet()) {
 			System.out.println("Key =" + entry.getKey() + " and value = " + entry.getValue());
 		}
 		System.out.println("\n");
