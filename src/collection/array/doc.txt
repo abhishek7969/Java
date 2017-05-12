@@ -1,0 +1,7 @@
+Random Access
+	LinkedList supports get(int index) operation but internally it traverses the list from start or end which ever is closer depending on the length. 
+	So it’s not efficient and not random.
+	Random access means that whether you get the element at index 1 or at index 10000 of 50000 elements, 
+	it should take same time but for LinkedList it will take more time because it will have to skip first 9999 elements to get the desired element.
+	ArrayList supports random access, means whether you are accessing index 1 or 10000 of 50000 elements, time to get the element will be same.
+	If you look at the implementation of ArrayList and LinkedList, you will see that ArrayList implements RandomAccess interface whereas LinkedList does not.
