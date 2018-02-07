@@ -41,7 +41,7 @@ class NewProcessor implements  Runnable{
 	}
 	
 	public void run() {
-		System.out.println("Starting : " + id);
+		System.out.println(Thread.currentThread().getName()+" Starting : " + id);
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
