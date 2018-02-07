@@ -9,11 +9,11 @@ import java.util.concurrent.Future;
 public class SubmitCallable {
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
-		ExecutorService executor = Executors.newFixedThreadPool(5)	;
-		Future<String> future = executor.submit(new Callable<String>() {
+		ExecutorService executorService = Executors.newFixedThreadPool(5);
+		Future<String> future = executorService.submit(new Callable<String>(){
 			public String call(){
-				System.out.println("Annonium callable !!");
-				return "Test run callable";
+				System.out.println("called executable");
+				return "Retuened from call method";
 			}
 		});
 		System.out.println(future.get());
